@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+    font-size: 18px;
+    margin: 0px;
+    padding:0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgray;
+    align-items: center;
+
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-content: center;
+
+}
+
+.navbar li {}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    background-color: dimgray;
+    color: coral;
+    padding-right: 15px;
+}
+
+.navbar li a:hover {
+    background-color: cadetblue;
+}
