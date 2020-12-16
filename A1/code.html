@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Xavier</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0abe856548.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/cocoen.min.css" />
+</head>
+
+<body>
+
+
+  <!--navbar-->
+  <nav id="topNav" class="myNav">
+    <div class="navi">
+      <a href="index.html" class="logo"><img src="img/nav/logo.png" alt="logo"></a>
+
+      <ul class="navbar">
+        <li class="myMenu">
+          <a href="javascript:void(0)" class="bars" onclick="myFunction()">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+        </li>
+
+        <li class="myLinks"><a href="profile.html">Profile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!--main-->
+  <main>
+    <div class="codehero">
+    </div>
+  </main>
+
+
+  <!--backtotop-->
+  <button><a href="#topNav">
+    <i class="fas fa-chevron-up"></i>
+  </a></button>
+
+
+  <!--animations-->
+  <section class="anip">
+    <h1 class="anihead"><a href="img/code/animations/index.html" target="_blank">Animations</a></h1>
+
+    <div class="animations">
+
+      <!--ani01-->
+      <div class="box ani01">
+        <div id="road">
+          <div id="walking">
+          </div>
+        </div>
+      </div>
+
+
+      <!--ani02-->
+      <div class="box ani02">
+        <div class="cani02">
+          <div class="ani02child">
+            <span class="fan class=" parts""></span>
+            <span class="fan class=" parts""></span>
+            <span class="fan class=" parts""></span>
+            <span class="fan class=" parts""></span>
+          </div>
+        </div>
+      </div>
+
+
+      <!--ani03-->
+      <div class="box ani03">
+        <div id="percentCount" class="percent-count">
+          100%
+        </div>
+        <div class="progress-bar">
+          <div id="progress" class="progress">
+          </div>
+        </div>
+      </div>
+
+
+      <!--ani04-->
+      <div class="box ani04">
+        <div id="rainbow">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <!--ani05-->
+      <div class="box ani05">
+        <div class="rload">
+          <span class="ringload"></span>
+          <span class="ringload"></span>
+          <span class="ringload"></span>
+          <span class="ringload"></span>
+        </div>
+      </div>
+
+
+      <!--ani06-->
+      <div class="box ani06">
+        <div class="glow">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+
+      <!--ani07-->
+      <div class="box ani07">
+        <div class="linescon">
+          <ul class="lines">
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!--ani08-->
+      <div class="box ani08">
+
+        <div class="lspin"></div>
+
+        <div class="ldot">
+          <span class="bounce"></span>
+          <span class="bounce"></span>
+          <span class="bounce"></span>
+        </div>
+
+      </div>
+
+
+      <!--ani09-->
+      <div class="box ani09">
+        <div class="smoke">
+          <span>N</span>
+          <span>O</span>
+          <span>W</span>
+          <br>
+          <span>L</span>
+          <span>O</span>
+          <span>A</span>
+          <span>D</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+        </div>
+      </div>
+
+
+      <div class="blank">
+      </div>
+    </div>
+
+    <p>Some animations of loading bars.</p>
+
+  </section>
+
+
+  <!--mockup-->
+  <section class="webmockups">
+
+    <h1><a href="img/code/news/index.html" target="_blank">News Website Mockup</a></h1>
+    <div class="webmock">
+      <div class="news">
+        <img src="img/code/news/news.jpg" alt="sonos">
+      </div>
+      <p>Mockup and coded using made a new website.</p>
+    </div>
+
+  </section>
+
+
+  <!--footer-->
+  <footer>
+    <div class="footcontainer">
+      <div class="footphoto">
+        <a href="photo.html"><img src="img/cover/photofoot.jpg" alt="photocover"></a>
+      </div>
+
+      <div class="footvideo">
+        <a href="video.html"><img src="img/cover/videofoot.jpg" alt="videocover"></a>
+      </div>
+
+      <div class="footcode">
+        <a href="code.html"><img src="img/cover/codefoot.jpg" alt="codecover"></a>
+      </div>
+
+      <div class="footpro">
+        <a href="project.html"><img src="img/cover/projectfoot.jpg" alt="projectcover"></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--javascript-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("topNav");
+      if (x.className === "myNav") {
+        x.className += " responsive";
+      } else {
+        x.className = "myNav";
+      }
+    }
+
+    function progress() {
+      var prg = document.getElementById('progress');
+      var percent = document.getElementById('percentCount');
+      var counter = 5;
+      var progress = 10;
+      var id = setInterval(frame, 50);
+
+      function frame() {
+        if (progress == 200 && counter == 100) {
+          clearInterval(id);
+        } else {
+          progress += 2;
+          counter += 1;
+          prg.style.width = progress + 'px';
+          percent.innerHTML = counter + '%';
+        }
+      }
+    }
+    progress();
+  </script>
+
+
+</body>
+
+</html>

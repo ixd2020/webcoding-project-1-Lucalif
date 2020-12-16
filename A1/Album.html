@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>album</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0abe856548.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!--navbar-->
+    <nav>
+      <div class="logo">
+        <img src="images/LoremLabs_logo.png" height="30px" width="150px">
+      </div>
+      <ul class="navbar">
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="about.html"><b>About</b></a></li>
+        <li><a href="Album.html"><b>Album</b></a></li>
+        </ul>
+    </nav>
+
+  <!--main-->
+  <section class="slider">
+    <h1>R∃ / MEMBER </h1>
+
+    <div class="cocoen ">
+      <img src="img/ab/slider/Remember.jpg" alt="bridge">
+      <img src="img/ab/slider/Remember2.jpg" alt="bridge">
+    </div>
+    <h2>Sawano release his 3rd studio album R∃/MEMBER under his vocal project with lyricist Aimer</h2>
+  </section>
+
+  <section class="slider">
+    <h1>Chaos Drifters / CRY</h1>
+
+    <div class="cocoen ">
+      <img src="img/ab/slider/Chaos Drifters CRY [Limited Edition A].jpg" alt="">
+      <img src="img/ab/slider/Chaos Drifters CRY.jpg" alt="">
+    </div>
+    <h2>Chaos Drifters / CRY is the ninth single by SawanoHiroyuki[nZk]. Released on July 29, 2020</h2>
+  </section>
+
+  <!--landscape photography-->
+  <section class="album">
+    <div class="album photocon">
+      <h1>More Album</h1>
+
+
+      <ul class="photos">
+        <li><a data-fancybox="gallery" data-caption="Seraph of the end Nagoya decisive battle original soundtrack" href="img/ab/album/Seraph.jpg"><img src="img/ab/album/Seraph.jpg" alt="Seraph of the end Nagoya decisive battle original soundtrack"></a></li>
+        <li><a data-fancybox="gallery" data-caption="Hiroyuki Sawano - Best Of Soundtrack" href="img/ab/album/Hiroyuki Sawano - Best Of Soundtrack.jpg"><img src="img/ab/album/Hiroyuki Sawano - Best Of Soundtrack.jpg" alt="Hiroyuki Sawano - Best Of Soundtrack"></a></li>
+      </ul>
+
+      <ul class="photos">
+        <li><a data-fancybox="gallery" data-caption="Attack On Titan" href="img/ab/album/Attack On Titan.jpg"><img src="img/ab/album/Attack On Titan.jpg" alt="Attack On Titan"></a></li>
+        <li><a data-fancybox="gallery" data-caption="Sawanohiroyuki[Nzk]" href="img/ab/album/Sawanohiroyuki[Nzk].jpg"><img src="img/ab/album/Sawanohiroyuki[Nzk].jpg" alt="Sawanohiroyuki[Nzk]"></a></li>
+      </ul>
+
+    </div>
+  </section>
+
+
+
+  <!-- Site footer -->
+  <footer class="footer">
+
+    <div class="footer-right">
+
+      <a href="https://twitter.com/sawano_nzk?lang=en"><i class="fa fa-twitter"></i></a>
+      <a href="https://open.spotify.com/artist/0Riv2KnFcLZA3JSVryRg4y?autoplay=true"><i class="fa fa-spotify"></i></a>
+      <a href="https://www.youtube.com/playlist?playnext=1&list=PLuTlz9rVKjVGZfws9iF83h6kBW89HWAUM&feature=gws_kp_artist"><i class="fa fa-youtube"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a class="link-1" href="index.html">Home</a>
+
+        <a href="#">About</a>
+
+        <a href="#">Pricing</a>
+
+        <a href="Album.html">Album</a>
+
+        <a href="#">Faq</a>
+
+        <a href="#">Contact</a>
+      </p>
+
+
+  <!--javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+  <script src="js/cocoen.min.js"></script>
+  <script src="js/cocoen-jquery.min.js"></script>
+  <script>
+    $(function() {
+      $('.cocoen').cocoen();
+    });
+  </script>
+
+  <script src="dist/jquery.fancybox.min.js"></script>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("topNav");
+      if (x.className === "myNav") {
+        x.className += " responsive";
+      } else {
+        x.className = "myNav";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
