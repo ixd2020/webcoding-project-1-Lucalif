@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hiroyuki Sawano</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f0004e016b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav id="topNav" class="myNav">
+
+        <!--Navbar goes here-->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">My Works</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class=bg id="about">
+    </div>
+
+    <section>
+        <div class="section-text">
+            <h2>About Me</h2>
+            <hr>
+        </div>
+
+        <div class="about-grp">
+            <div class="abt-sub">
+                <h2>Who Am I</h2>
+                <p>Hiroyuki Sawano is a Japanese musician and composer who has written soundtracks for
+                    a string of popular anime series including all three seasons of Attack on Titan, Kill la Kill,
+                    Mobile Suit Gundam Unicorn and the upcoming anime film Mobile Suit Gundam Narrative.</p>
+            </div>
+
+            <div class="abt-sub">
+                <h2>My Background</h2>
+                <p>Hiroyuki Sawano was born in Tokyo, Japan. He began playing piano in elementary school. From the age of 17 he
+                    studied composition, arrangement, orchestration,
+                    and piano under Nobuchika Tsuboi. He has been active as a composer since 2004.</p>
+            </div>
+
+        </div>
+
+        <div class="abt-sub">
+            <h2>What Started It all</h2>
+            <p>In 2014, he launched a new vocal song project under the name <b>"SawanoHiroyuki[nZk]"</b>, producing the first album UnChild with Aimer as the vocalist under the name
+                <b>"SawanoHiroyuki[nZk]"</b>. Since then his songs under this vocal song project have also been used as the opening and ending themes for various anime, including Aldnoah.Zero, Seraph of the End,
+                Mobile Suit Gundam Unicorn RE:0096, The Legend of the Galactic Heroes: Die Neue These Kaikō, and Re:Creators. Sawano's vocal song project was moved to the Sacra Music record
+                label under Sony Music Entertainment Japan in April 2017.
+            </p>
+        </div>
+    </section>
+
+    <!--Footer Goes Here-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p style="color: #fff; font-size: 14px">Hiroyuki Sawano 2020<sup>©</sup></p>
+        </div>
+        <div class="iconset">
+            <a href="https://twitter.com/sawano_nzk?lang=en"><span class="iconic icon-tw"></span></a>
+
+            <a href="https://open.spotify.com/artist/2EWXgN0xWOnbqJOxa9pWNO" target="_blank"><span class="iconic icon-sy"></span></a>
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNav");
+            if (x.className === "myNav") {
+                x.className += " responsive";
+            } else {
+                x.className = "myNav";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

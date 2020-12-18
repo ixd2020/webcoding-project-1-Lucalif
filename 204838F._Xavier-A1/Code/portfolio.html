@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hiroyuki Sawano</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f0004e016b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/cocoen.min.css">
+    <link rel="stylesheet" href="dist/jquery.fancybox.min.css">
+</head>
+
+<body>
+
+    <nav id="topNav" class="myNav">
+
+        <!--Navbar goes here-->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">My Works</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section>
+
+        <div class="section-text">
+            <h2>Some Of My Works</h2>
+            <hr>
+        </div>
+
+        <div class="photo-grp">
+            <div class="photo-sub">
+                <a data-fancybox="gallery" data-caption="Attack on Titan OST Season 3" href="img/album/gallery-img2.jpg"><img src="img/album/gallery-img2.jpg" alt="AoT S3"></a>
+            
+                <a data-fancybox="gallery" data-caption="Attack on Titan OST Season 2" href="img/album/gallery-img3.jpg"><img src="img/album/gallery-img3.jpg" alt="AoT S2"></a>
+
+                <a data-fancybox="gallery" data-caption="2V-ALK (pronounced 'walk') 2V-ALK was proceeded by the singles 'Into the Sky', 'CRYst-Alise', 'e of s', 'gravityWall' and 'sh0ut'" href="img/album/gallery-img1.jpg"><img src="img/album/gallery-img1.jpg" alt="2V-ALK"></a>
+            </div>
+
+
+            <div class="photo-sub">
+                <a data-fancybox="gallery" data-caption="R∃/MEMBER is the third album by Hiroyuki Sawano's vocal project SawanoHiroyuki[nZk] 3rd collaboration with Aime" href="img/album/gallery-img5.jpg"><img src="img/album/gallery-img5.jpg" alt="R∃/MEMBER"></a>
+                
+                <a data-fancybox="gallery" data-caption="BEST OF SOUNDTRACK [emU] is the second best album by Japanese composer Hiroyuki Sawano. It was released in two versions: The Standard edition, The limited edition,  included an extra disc with re-arrangements of his songs." href="img/album/gallery-img4.jpg"><img src="img/album/gallery-img4.jpg" alt="Best Of Soundtrack"></a>
+                
+                <a data-fancybox="gallery" data-caption="o1 is the first studio album by Hiroyuki Sawano's vocal project SawanoHiroyuki[nZk]" href="img/album/gallery-img6.jpg"><img src="img/album/gallery-img6.jpg" alt="o1"></a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!--Footer Goes Here-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p style="color: #fff; font-size: 14px">Hiroyuki Sawano 2020<sup>©</sup></p>
+        </div>
+        <div class="iconset">
+            <a href="https://twitter.com/sawano_nzk?lang=en"><span class="iconic icon-tw"></span></a>
+
+            <a href="https://open.spotify.com/artist/2EWXgN0xWOnbqJOxa9pWNO" target="_blank"><span class="iconic icon-sy"></span></a>
+        </div>
+    </footer>
+
+    <!--Java-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNav");
+            if (x.className === "myNav") {
+                x.className += " responsive";
+            } else {
+                x.className = "myNav";
+            }
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <script src="js/cocoen.min.js"></script>
+    <script src="js/cocoen-jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('.cocoen').cocoen();
+        });
+
+    </script>
+
+    <script src="dist/jquery.fancybox.min.js"></script>
+
+</body>
+
+</html>
